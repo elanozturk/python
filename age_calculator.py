@@ -4,3 +4,4 @@ def age(birthdate):
     today = date.today()
     return today.year - birthdate
 print("Yaşınız", age(birthdate))
+print("merhaba")
