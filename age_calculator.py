@@ -5,3 +5,5 @@ def age(birthdate):
     return today.year - birthdate
 print("Yaşınız", age(birthdate))
 print("merhaba")
+2356
+
