@@ -24,3 +24,4 @@ if kullaniciadi == login_name:
        print("Parola hatalı!")
 else:
     print("Kullanıcı adı bulunamadı.")
+    print("...........ı.")
