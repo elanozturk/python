@@ -16,7 +16,9 @@ else:
      print(ogrenciler)
 
 
-# öğrenci yoksa ekle ve bilgi ver
-# öğrenci varsa ekleme ve öğrenci zaten var diye bilgi ver
-# en son öğrencileri yazdır
+# öğrenci yoksa ekle ve bilgi ver.
+# öğrenci varsa ekleme ve öğrenci zaten var diye bilgi ver.
+# en son öğrencileri yazdır.
+# buraya kadar.
+
 
