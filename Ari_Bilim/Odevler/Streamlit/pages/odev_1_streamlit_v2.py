@@ -25,6 +25,7 @@ if authentication_status:
 
     # Yönlendirme için success veya write fonksiyonlarını kullanabilirsiniz
     st.write('[Giriş sayfasına yönlendiriliyorsunuz](https://www.python.org/)')
+    st.redirect("https://www.python.org")
 
 elif authentication_status is False:
     st.error("Kullanıcı adı ve şifre hatalı.")
