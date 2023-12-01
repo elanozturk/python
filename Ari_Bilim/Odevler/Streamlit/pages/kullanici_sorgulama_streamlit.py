@@ -4,10 +4,14 @@ users = {"admin": "1234", "fatih": "1453", "selanik": "1881", "dolmabahce": "190
 login_request = st.text_input("Kullanıcı adını giriniz: ")
 
 if login_request in users.keys():
-    st.text_input_password = st.text_input("Kullanıcı adı tanımlı. Lütfen şifrenizi giriniz: ")
-    if st.text_input_password == users[login_request]:
-        print("Giriş başarılı.")
+    password_input = st.text_input("Kullanıcı adı tanımlı. Lütfen şifrenizi giriniz: ", type="password")
+    if password_input == users[login_request]:
+        st.success("Giriş başarılı.")
+        #st.snow()  # Snow effect
+        #st.experimental_rerun()  # Rerun the app to apply the snow effect
+        st.markdown("<meta http-equiv='refresh' content='0;URL=https://www.python.org/' >", unsafe_allow_html=True)
+
     else:
-        print("Şifre yanlış")
+        st.error("Şifre yanlış")
 else:
-    print("Kullanıcı adı tanımlı değil.")
+    st.warning("Kullanıcı adı tanımlı değil.")

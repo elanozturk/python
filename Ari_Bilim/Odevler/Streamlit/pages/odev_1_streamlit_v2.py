@@ -11,9 +11,7 @@ hashed_passwords = stauth.Hasher(['abc', 'def']).generate()
 authenticator = stauth.Authenticate(
     config.get('credentials'),
     config['cookie']['name'],
-    config['cookie']['key'],
-    config['cookie']['expiry_days'],
-    config['preauthorized']
+    config['cookie']['key']
 )
 
 name, authentication_status, username = authenticator.login('Giriş', 'main')
@@ -30,6 +28,7 @@ elif authentication_status is None:
 
 elif authentication_status is True:
     st.success("Giriş başarılı.")
+    st.markdown("<meta http-equiv='refresh' content='0;URL=https://www.python.org/' >", unsafe_allow_html=True)
     ##st.write("Giriş başarılı")
 
 else:
