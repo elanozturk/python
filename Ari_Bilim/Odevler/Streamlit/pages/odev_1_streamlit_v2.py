@@ -30,7 +30,7 @@ elif authentication_status is None:
 
 elif authentication_status is True:
     st.success("Giriş başarılı.")
-    #st.write("Giriş başarılı")
+    ##st.write("Giriş başarılı")
 
 else:
     st.warning('Lütfen kullanıcı adı ve şifrenizi giriniz.')
