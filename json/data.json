@@ -1,0 +1,18 @@
+[
+{
+    "isim":"Şükrü","soyisim":"Tercan",
+    "dogum yili":1987,
+    "departman": null,
+    "askerlik": true,
+    "medeni_hali":false
+},
+{
+    "isim":"Oğuz","soyisim":"Serkan",
+    "dogum yili":1984,
+    "departman": null,
+    "askerlik": true ,
+    "medeni_hali":false
+}
+]
+
+
