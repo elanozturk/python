@@ -1,0 +1,4 @@
+Comment all lines:
+Ctrl + K basılıyken C'ye bas 
+Uncomment all lines:
+Ctrl + K basılıyken U'ya bas 
