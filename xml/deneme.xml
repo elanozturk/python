@@ -1,1 +1,13 @@
-<urunler></urunler>
+<urunler>
+ <kategori isim="Telefon">
+    <urun fiyat="60.000" marka= "Apple"> iphone 13</urun>
+    <urun fiyat="50.000" marka= "Apple"> iphone 14</urun>
+    <urun fiyat="52.000" marka= "Apple"> iphone 15</urun>
+    <urun fiyat="53.000" marka= "Apple"> Galaxy S23</urun>
+</kategori>
+<kategori isim="Bilgisayar">
+    <urun fiyat="70.000" marka= "Apple"> Macbook Pro 13é</urun>
+    <urun fiyat="80.000" marka= "Lenovo"> ThinkPad X13</urun>
+</kategori>
+
+</urunler>
