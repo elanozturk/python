@@ -2,3 +2,8 @@
 
 <damla yas="19" memleket="Afyon" > Damla Senbabaoglu </damla>
 XML'de her değer yazı(string) olarak kabul edilir.
+
+<urun fiyat="60.000" marka= "Apple"> iphone 13</urun>
+urun : Etiket
+fiyat,marka : Attribution
+iphone 13 : Content
