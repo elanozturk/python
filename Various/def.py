@@ -1,11 +1,6 @@
-def greet(lang):
-    if lang == "es":
-        print("Hola", end=' ')
-    elif lang == "tr":
-        print("Merhaba", end=' ')
-    else:
-        print("Hello", end=' ')
+def addtwo(a, b):
+    added = a + b
+    return a
 
-lang = input("Input language prefix: ")
-greet(lang)
-print("padawan!")
+x = addtwo(2, 7)
+print(x)
