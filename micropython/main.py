@@ -1,11 +1,19 @@
-import machine
-import time
+import network
 
-led_pin = machine.Pin(2, machine.Pin.OUT)
-while True:
-    led_pin.value(1)
-    print("LED ON...")
-    time.sleep(1)
-    led_pin.value(0)
-    print("LED OFF...")
-    time.sleep(1)
+print("Started")
+
+WIFI_NETWORK='SUPERONLINE_WiFi_2AA5'
+
+WIFI_PASSWORD='TKWEFME9NPYJ'
+
+
+wlan = network.WLAN(network.STA_IF)
+
+wlan.active(True)
+
+wlan.connect(WIFI_NETWORK, WIFI_PASSWORD)
+
+
+print()
+
+print("Connected to ",WIFI_NETWORK)
