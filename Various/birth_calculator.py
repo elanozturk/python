@@ -12,5 +12,5 @@ gecen_sure = bugun - dogumtarihi
 gecen_gun = gecen_sure.days
 
 print("Doğum tarihinizden bugüne kadar geçen gün: {:,}".format(gecen_gun))
-sleep(10)
+sleep(5)
 print ("Program sonlandırılıyor...")
